@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+.head{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+section{
+    background-color: rgb(255, 255, 255);
+    height: 700px;
+    width: 70%;
+    margin-left: 15%;
+}
+.col-4{
+    width: 33.33%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.col-4 i{
+    padding-left: 200px;
+    padding-top: 100px;
+    color: rgb(128, 128, 128);
+}
+.row{
+    height: 50%;
+    display: flex;
+}
+.print{
+    background-color: rgb(79, 190, 153);
+}
+.photography{
+    background-color: rgb(179, 179, 72);
+}
+.brand{
+    background-color: rgb(94, 94, 240);
+}
+h1, p, a{
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+}
+.header{
+    color: black !important;
+}

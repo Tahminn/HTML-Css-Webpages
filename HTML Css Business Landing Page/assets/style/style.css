@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(211, 35, 35, 0.808), rgba(0, 0, 0, 0.75)), url("../img/background_image.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+}
+
+.head {
+    padding: 17px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-juno i {
+    color: white;
+}
+
+.logo-juno i::after {
+    content: " Juno";
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav li {
+    position: absolute;
+    right: 15px;
+    display: flex;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 85vh;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    display: flex;
+    height: 70vh;
+    width: 60%;
+    margin-top: 10vh;
+    margin-left: 20%;
+}
+
+.left-content {
+    padding-top: 100px;
+    font-size: 30px;
+    color: white;
+    width: 50%;
+}
+
+.left-content button {
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.register {
+    background-color: rgba(194, 193, 193, 0);
+}
+
+.register form {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.register form input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.register form select {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    padding-left: 20px;
+    width: 393px;
+}
+
+.register label {
+    font-size: 14px;
+}
+
+.register button {
+    width: 393px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: orange;
+}
+
+footer {
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(77, 77, 77);
+}
